@@ -1,0 +1,55 @@
+.location__section {
+  padding-bottom: 120px;
+}
+.location__data {
+  padding: 10px 30px;
+  position: relative;
+  background-color: rgba(0, 255, 255, 0.186);
+  border-radius: 20px;
+}
+
+.location__data h1 {
+  font-size: 28px;
+  text-align: center;
+  color: rgb(1, 101, 117);
+  margin: 40px 0;
+}
+.location__data span {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(255, 166, 0);
+}
+.location__data p {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(1, 101, 117);
+  margin-top: 10px;
+}
+.location__data img {
+  width: 60px;
+}
+.background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 170px !important;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+.location__info {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-size: cover;
+  backdrop-filter: sepia(90%);
+  background-image: url("../asists/img\ project/خلفيه البار في الأعلي والأسفل كاملة.jpg");
+}
+.location__info h1 {
+  color: white;
+  font-size: 24px;
+}
+.location__info p {
+  margin: 0;
+  margin-bottom: 12px;
+  font-weight: 500;
+}

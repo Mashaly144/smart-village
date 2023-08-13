@@ -1,0 +1,23 @@
+.clinec__holder {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.clinec__image {
+  position: relative;
+}
+.clinec__image img {
+  width: 100%;
+}
+.clinec__overlay {
+  border-radius: 50%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.184);
+  height: 100%;
+  z-index: 1;
+  display: none;
+  position: absolute;
+  font-size: 20px;
+}
+.clinec__overlay.active {
+  display: block !important;
+}

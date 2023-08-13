@@ -1,0 +1,89 @@
+.doctor__card {
+  padding: 30px 50px;
+  border: 2px solid rgba(65, 65, 65, 0.52);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.241);
+  border-radius: 10px;
+  width: 90%;
+  margin-bottom: 30px;
+}
+.doctor__img img {
+  width: 130px;
+}
+.doctor__data {
+  margin-right: 20px;
+}
+.doctor__name {
+  color: rgb(0, 85, 255);
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+.doctor__specialty {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+.doctor__data .stars img {
+  width: 40px;
+  margin: 0;
+}
+.doctor__rate {
+  margin: 0;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.doctor__data h2 {
+  font-size: 18px;
+  margin: 15px 0;
+}
+.doctor__data h2 img {
+  width: 30px;
+}
+.time__holder {
+  height: 300px;
+  overflow: hidden;
+  border: 2px solid rgba(65, 65, 65, 0.52);
+  width: 95%;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.doctor__day {
+  padding: 5px 0;
+  font-size: 22px;
+  background-color: rgb(25, 37, 194);
+}
+.doctor__date {
+  background-color: white;
+  color: black;
+
+  margin: 0;
+  padding: 0;
+}
+.doctor__ava {
+  padding: 5px 0;
+  margin: 0;
+  font-size: 22px;
+  background-color: rgb(244, 48, 48);
+}
+.time__holder.inactive .doctor__day {
+  background-color: rgb(128, 198, 218);
+}
+.time__holder.inactive .doctor__ava {
+  background-color: rgb(200, 200, 200);
+  color: black;
+}
+.elnady.hospital {
+  border-bottom: none;
+}
+.doctors {
+  border-top: 1px black solid;
+  padding-top: 50px;
+  margin-top: 40px;
+}

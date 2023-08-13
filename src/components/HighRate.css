@@ -1,0 +1,91 @@
+.highrate {
+  padding: 50px 0;
+  background-image: url("../asists/img\ project/خلفية معلومات عن القرية كاملة.jpg");
+}
+.highrate .container > h1 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.highrate .slide__holder {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(214, 214, 214);
+  padding: 30px 80px;
+}
+.highrate .slide__info {
+  margin: 0 20px;
+  background-color: rgb(214, 214, 214);
+  background-image: none;
+  border-radius: 10px;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #3aa463 3px solid;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.224);
+}
+.highrate .slide__info h1 {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.highrate .slide__info img {
+  width: 75px;
+  margin: 0;
+}
+.highrate .slide__info p {
+  color: black;
+  line-height: 1.7;
+  font-weight: 600;
+  margin: 0;
+}
+.slide__info a {
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: white;
+  border-radius: 10px;
+  color: black !important;
+}
+.highrate .carousel-control-prev {
+  display: flex !important;
+}
+.carousel-control-next {
+  display: flex !important;
+}
+.highrate .carousel-control-prev-icon {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  margin-right: 80px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.224);
+  background-image: url("../asists/واجهة\ القرية/leftarrow.svg");
+}
+.highrate .carousel-control-next-icon {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  margin-left: 80px;
+  box-shadow: -2px -2px 6px rgba(0, 0, 0, 0.224);
+  background-image: url("../asists/واجهة\ القرية/leftarrow.svg");
+  transform: rotate(180deg);
+}
+.highrate .carousel-indicators {
+  display: none !important;
+  left: 0 !important;
+  right: 60% !important;
+}
+.carousel-indicators button {
+  border-radius: 50% !important;
+  width: 20px !important;
+  height: 20px !important;
+  background-color: white !important;
+  opacity: 1 !important;
+}
+.carousel-indicators button.active {
+  background-color: #708b41 !important;
+}

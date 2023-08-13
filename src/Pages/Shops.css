@@ -1,0 +1,27 @@
+.shop {
+  border: 2px solid rgba(0, 0, 0, 0.466);
+  border-radius: 6px;
+  padding: 20px;
+  margin: 0 20px;
+  margin-bottom: 50px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.527);
+}
+.shop p {
+  font-size: 22px;
+  font-weight: 500;
+  width: fit-content;
+}
+.shop .stars {
+  margin: 0 auto;
+  width: fit-content;
+}
+.shop .stars img {
+  width: 40px;
+}
+.shop img {
+  width: 90%;
+}
+.shop a {
+  color: rgb(0, 132, 255) !important;
+  text-decoration: none;
+}

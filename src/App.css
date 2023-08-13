@@ -1,0 +1,41 @@
+header a {
+  text-decoration: none !important;
+}
+.error__page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.error__page a {
+  text-decoration: none !important;
+}
+.err__btn {
+  color: white !important;
+
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: green;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.navbar-toggler {
+  border: 2px solid white !important;
+}
+.navbar-toggler span {
+  background-image: url("/src/asists/burgger.png");
+}
+#specialty {
+  background-color: rgb(214, 214, 214);
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+}
+.star-ratings .widget-svg {
+  width: 30px !important;
+}
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}

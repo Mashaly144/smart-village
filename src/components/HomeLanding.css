@@ -1,0 +1,123 @@
+.home__landing {
+  padding: 50px 0;
+}
+.home__landing ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  background-color: #d9f2c49e;
+}
+.home__landing ul li {
+  padding: 10px 0;
+}
+
+.home__landing ul li a {
+  text-decoration: none !important;
+  padding: 6px;
+  color: rgb(36, 100, 156) !important;
+  margin-right: 7px;
+  border-left: 2px solid rgb(54, 54, 54);
+  font-weight: 500;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.home__landing ul li a:hover {
+  background-color: #708b4129;
+  color: rgb(59, 108, 37) !important;
+}
+.home__landing ul li:nth-last-child(1) a {
+  border-left: none;
+}
+.home__landing input {
+  background-color: rgb(246, 246, 246);
+  outline: none;
+  border: none;
+  padding: 10px 10px;
+  width: 90%;
+  border-radius: 20px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: rgb(36, 100, 156);
+}
+.slide__info {
+  background-image: url("../asists/واجهة\ القرية/Background & Read.png");
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+.slide__info h1 {
+  color: white;
+  font-size: 24px;
+}
+.slide__info p {
+  color: white;
+  line-height: 1.7;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.slide__info a {
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: white;
+  border-radius: 10px;
+  color: black !important;
+}
+.carousel-control-prev {
+  display: none !important;
+}
+.carousel-control-next {
+  display: none !important;
+}
+.carousel-indicators {
+  left: 0 !important;
+  right: 60% !important;
+}
+.carousel-indicators button {
+  border-radius: 50% !important;
+  width: 20px !important;
+  height: 20px !important;
+  background-color: white !important;
+  opacity: 1 !important;
+}
+.carousel-indicators button.active {
+  background-color: #708b41 !important;
+}
+.header__chat h1 {
+  font-size: 24px;
+  color: gray;
+  margin-right: 10px;
+}
+.body__chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.body__chat img {
+  width: 100px;
+}
+.body__chat p {
+  color: #3b8672;
+  font-size: 18px;
+  font-weight: 500;
+}
+.chat__btn {
+  display: inline-block;
+  background-image: url("../asists/واجهة\ القرية/chatBtn.png");
+  background-size: cover;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 60px;
+}
+.chat__cont {
+  display: block !important;
+  color: #3b8672 !important;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}

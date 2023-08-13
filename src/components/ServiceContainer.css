@@ -1,0 +1,55 @@
+.service__container {
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+.service__container h1 {
+  font-weight: 400;
+  padding: 10px 40px;
+  background-color: rgb(237, 237, 237);
+  width: fit-content;
+  border-radius: 30px 0 30px 0;
+  margin-right: 10px;
+  border: 2px rgba(0, 0, 0, 0.227) solid;
+  margin-bottom: 40px;
+}
+.services__cards {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  border-top: 1px rgb(29, 0, 0) solid;
+}
+.service__card {
+  position: relative;
+
+  padding-top: 50px;
+}
+
+.service__card .badge p {
+  top: 6px;
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  z-index: 2;
+  right: 18px;
+}
+.service__card .badge img {
+  position: absolute;
+  top: 0;
+  width: 55px;
+}
+.service__card > p {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 500;
+}
+.service__card a {
+  color: green !important;
+  display: block;
+  text-align: center;
+  font-weight: 500;
+}
+.service__img {
+  text-align: center;
+}

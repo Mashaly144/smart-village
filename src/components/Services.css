@@ -1,0 +1,32 @@
+.services {
+  padding: 50px 0;
+}
+.services__holder {
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-bottom: 60px;
+}
+.service p {
+  width: 80%;
+  text-align: center;
+}
+.service a {
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  font-size: 15px;
+  color: rgb(95, 221, 33) !important;
+  margin-top: 30px;
+}
+
+.services h3 {
+  font-weight: 500;
+  font-size: 24px;
+}
